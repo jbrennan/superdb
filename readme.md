@@ -32,13 +32,15 @@ Installation
 
 5. On the "Build Settings" for your Target, find the "Header Search Paths" setting and add an entry (for at least your Debug configuration or optionally all configurations). This entry should be for `"path/to/superdb/SuperDBCore"`  (relative to your project's root... this is the same path you used when specifying where to put the submodule) and it should be marked as `recursive`.
 
-6. Next, pick which class is going to house your Interpreter service. A good spot for this is your AppDelegate.
+6. Still in your "Build Settings", search for "Other Linker Flags" and add `-ObjC` for all configurations. This lets Super Debug's Categories load in your application.
 
-7. In your file, add `#import <SuperDBCore/SuperDBCore.h>`.
+7. Next, pick which class is going to house your Interpreter service. A good spot for this is your AppDelegate.
 
-8. Create an instance variable or property for `SuperInterpreterService *_interpreterService;`
+8. In your file, add `#import <SuperDBCore/SuperDBCore.h>`.
 
-9. Initialze as follows:
+9. Create an instance variable or property for `SuperInterpreterService *_interpreterService;`
+
+10. Initialze as follows:
 
 		_interpreterService = [SuperInterpreterService new];
 		if ([_interpreterService startServer]) {
@@ -81,6 +83,8 @@ If you'd like to quickly test out some of the features, there's an included demo
 3. The previous step has no visible result, so lets make a change. Type `self redView layer setCornerRadius:15` and see the red view get nice rounded corners!
 
 4. Now for the **impressive** part. Move your mouse over the number `15` and see it highlight. Now click and drag left or right, and see the view's corner radius update **in real time**. Awesome, huh?
+
+5. If you want to display an image from the iOS app, use the `.image` command. In our example, you can type `.image self redView generateImage`; the `generateImage` method will create a screenshot of the redView and the `.image` command will transfer it to the Mac app. This command works with any kind of image, you can do something like: `.image UIImage imageNamed:'Default.png'`.
 
 Using
 -----
