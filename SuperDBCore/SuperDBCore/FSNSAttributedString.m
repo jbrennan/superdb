@@ -3,7 +3,7 @@
 
 #import "FSNSAttributedString.h"
 #if !TARGET_OS_IPHONE
-# import "FSAttributedStringInspector.h"
+//# import "FSAttributedStringInspector.h"
 #endif
 
 @implementation NSAttributedString (FSNSAttributedString)
@@ -11,7 +11,7 @@
 -(void)inspect
 {
 #if !TARGET_OS_IPHONE
-  [FSAttributedStringInspector attributedStringInspectorWithAttributedString:self];
+//  [FSAttributedStringInspector attributedStringInspectorWithAttributedString:self];
 #endif
 }
 

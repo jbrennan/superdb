@@ -6,7 +6,7 @@
 #import "FSSystemPrivate.h"
 
 #if !TARGET_OS_IPHONE
-# import "FSManagedObjectContextInspector.h"
+//# import "FSManagedObjectContextInspector.h"
 #endif
 
 @implementation NSManagedObjectContext(FSNSManagedObjectContext)
@@ -17,7 +17,7 @@
   if (![system interpreter]) FSExecError(@"Sorry, can't open the inspector because there is no FSInterpreter associated with the FSSystem object passed as argument");
 
 #if !TARGET_OS_IPHONE
-  [FSManagedObjectContextInspector managedObjectContextInspectorWithmanagedObjectContext:self interpreter:[system interpreter]];
+//  [FSManagedObjectContextInspector managedObjectContextInspectorWithmanagedObjectContext:self interpreter:[system interpreter]];
 #endif
 }
 

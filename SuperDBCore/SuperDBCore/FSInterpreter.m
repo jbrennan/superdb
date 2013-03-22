@@ -11,8 +11,8 @@
 #import "FSCompiler.h"
 
 #if !TARGET_OS_IPHONE
-# import "FSInterpreterPrivate.h"
-# import "FSObjectBrowser.h"
+//# import "FSInterpreterPrivate.h"
+//# import "FSObjectBrowser.h"
 #endif
 
 @implementation FSInterpreter
@@ -65,22 +65,22 @@
 
 }
 #else
-- (FSObjectBrowserButtonCtxBlock *) objectBrowserButtonCtxBlockFromString:(NSString *)source // May raise
-{
-  return [FSObjectBrowserButtonCtxBlock blockWithSource:source parentSymbolTable:[executor symbolTable]]; // May raise
-}
-
-- (void)browse 
-{
-  FSObjectBrowser *bb = [FSObjectBrowser objectBrowserWithRootObject:nil interpreter:self];
-  [bb browseWorkspace];
-  [bb makeKeyAndOrderFront:nil];
-}
-
-- (void)browse:(id)anObject
-{
-  [[FSObjectBrowser objectBrowserWithRootObject:anObject interpreter:self] makeKeyAndOrderFront:nil];
-}
+//- (FSObjectBrowserButtonCtxBlock *) objectBrowserButtonCtxBlockFromString:(NSString *)source // May raise
+//{
+//  return [FSObjectBrowserButtonCtxBlock blockWithSource:source parentSymbolTable:[executor symbolTable]]; // May raise
+//}
+//
+//- (void)browse 
+//{
+//  FSObjectBrowser *bb = [FSObjectBrowser objectBrowserWithRootObject:nil interpreter:self];
+//  [bb browseWorkspace];
+//  [bb makeKeyAndOrderFront:nil];
+//}
+//
+//- (void)browse:(id)anObject
+//{
+//  [[FSObjectBrowser objectBrowserWithRootObject:anObject interpreter:self] makeKeyAndOrderFront:nil];
+//}
 #endif
 
 -(void)dealloc

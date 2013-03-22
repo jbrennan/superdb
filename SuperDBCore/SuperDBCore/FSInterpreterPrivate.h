@@ -2,7 +2,7 @@
 /*   This software is open source. See the license.  */ 
 
 #import "FSInterpreter.h"
-#import "FSObjectBrowserButtonCtxBlock.h"
+//#import "FSObjectBrowserButtonCtxBlock.h"
 
 @interface FSInterpreter(FSInterpreterPrivate)
 

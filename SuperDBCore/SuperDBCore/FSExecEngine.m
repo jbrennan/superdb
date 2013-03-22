@@ -57,7 +57,7 @@
 #import "FSAssociation.h"
 
 #if !TARGET_OS_IPHONE
-# import "FScriptTextView.h"
+//# import "FScriptTextView.h"
 #endif
 
 // ignoring these warnings until it can be fixed, for build servers.
@@ -1249,7 +1249,7 @@ static void addMethodsToClass(NSArray *methods, Class class)
       else                           ok = [method addToClass:class]; 
       
 #if !TARGET_OS_IPHONE
-      if (ok) [FScriptTextView registerMethodNameForCompletion:NSStringFromSelector(method->selector)];
+//      if (ok) [FScriptTextView registerMethodNameForCompletion:NSStringFromSelector(method->selector)];
 #endif
       if (!ok) FSExecError([NSString stringWithFormat:@"invalid method \"%@\"", NSStringFromSelector(method->selector)]);
     }
@@ -1616,7 +1616,7 @@ id execute_rec(FSCNBase *codeNode, FSSymbolTable *localSymbolTable, NSInteger *e
       objc_registerClassPair(class); // This call is made after the class is set up because we might have defined an +initialize method 
                                      // and we don't want the ObjC run-time to call it before we add it to the class
 #if !TARGET_OS_IPHONE
-    [FScriptTextView registerClassNameForCompletion:className];
+//    [FScriptTextView registerClassNameForCompletion:className];
 #endif
     return class;  
   }

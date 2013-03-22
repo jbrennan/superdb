@@ -29,8 +29,8 @@
 # import <UIKit/UIFont.h>
 #else
 # import <AppKit/NSFont.h>
-# import "FSGenericObjectInspector.h"
-# import "FSCollectionInspector.h"
+//# import "FSGenericObjectInspector.h"
+//# import "FSCollectionInspector.h"
 #endif
 
 // ignoring these warnings until it can be fixed, for build servers.
@@ -321,31 +321,31 @@ BOOL FSIsIgnoredSelector(SEL selector)
 void inspect(id object, FSInterpreter *interpreter, id argument)
 {
 #if !TARGET_OS_IPHONE
-  BOOL error = NO;
-  
-  if (object == nil)
-    NSBeep();
-  else
-  {
-    @try  // An exception may occur if the object is invalid (e.g. an invalid proxy)
-    {
-        [object respondsToSelector:@selector(inspect)];
-    }
-    @catch (id exception)
-    {
-      error= YES;
-      [FSGenericObjectInspector genericObjectInspectorWithObject:object];
-    }
-
-    if (!error)
-    {  
-      if ([object respondsToSelector:@selector(inspectWithSystem:)])
-        [object inspectWithSystem:[interpreter objectForIdentifier:@"sys" found:NULL]];
-      else if ([object respondsToSelector:@selector(inspect)])
-        [object inspect];
-      else [FSGenericObjectInspector genericObjectInspectorWithObject:object];
-    }  
-  }    
+//  BOOL error = NO;
+//  
+//  if (object == nil)
+//    NSBeep();
+//  else
+//  {
+//    @try  // An exception may occur if the object is invalid (e.g. an invalid proxy)
+//    {
+//        [object respondsToSelector:@selector(inspect)];
+//    }
+//    @catch (id exception)
+//    {
+//      error= YES;
+//      [FSGenericObjectInspector genericObjectInspectorWithObject:object];
+//    }
+//
+//    if (!error)
+//    {  
+//      if ([object respondsToSelector:@selector(inspectWithSystem:)])
+//        [object inspectWithSystem:[interpreter objectForIdentifier:@"sys" found:NULL]];
+//      else if ([object respondsToSelector:@selector(inspect)])
+//        [object inspect];
+//      else [FSGenericObjectInspector genericObjectInspectorWithObject:object];
+//    }  
+//  }    
 #endif
 }
 
@@ -367,7 +367,7 @@ void inspectCollection(id collection, FSSystem *system, NSArray *blocks)  // Fac
         FSExecError(@"argument 2 of method \"inspectWithSystem:blocks:\" must be an array of blocks taking no more than one argument");
     }
 #if !TARGET_OS_IPHONE
-  [FSCollectionInspector collectionInspectorWithCollection:collection interpreter:(system ? [system interpreter] : [FSInterpreter interpreter]) blocks:blocks];
+//  [FSCollectionInspector collectionInspectorWithCollection:collection interpreter:(system ? [system interpreter] : [FSInterpreter interpreter]) blocks:blocks];
 #endif
 }
 

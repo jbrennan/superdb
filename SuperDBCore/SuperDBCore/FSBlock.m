@@ -23,7 +23,7 @@
 #import "Block_fscript.h"
 
 #if !TARGET_OS_IPHONE
-# import "BlockInspector.h"
+//# import "BlockInspector.h"
 #endif
 
 // ignoring these warnings until it can be fixed, for build servers.

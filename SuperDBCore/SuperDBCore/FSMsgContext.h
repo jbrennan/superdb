@@ -12,7 +12,7 @@
   BOOL               specialReturnType;
   BOOL               unsuportedReturnType;
   char               returnType;
-  __strong char     *argumentTypes;
+  /*__strong*/ char     *argumentTypes;
   NSMethodSignature *signature;
 }
 

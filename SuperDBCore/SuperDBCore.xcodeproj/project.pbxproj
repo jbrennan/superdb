@@ -55,6 +55,93 @@
 		CD0D975615B87E66003A0D8B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0D975515B87E66003A0D8B /* CoreData.framework */; };
 		CD40C80B15F0ECCB002E3A58 /* SuperInterpreterObjectBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = CD40C80915F0ECCB002E3A58 /* SuperInterpreterObjectBrowser.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CD40C80C15F0ECCB002E3A58 /* SuperInterpreterObjectBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = CD40C80A15F0ECCB002E3A58 /* SuperInterpreterObjectBrowser.m */; };
+		CD40E34E16FBD7CB00D5A887 /* Array.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF10115EFC2B100E63391 /* Array.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E35216FBD7CB00D5A887 /* ArrayRepBoolean.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF10515EFC2B100E63391 /* ArrayRepBoolean.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E35416FBD7CB00D5A887 /* ArrayRepDouble.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF10715EFC2B100E63391 /* ArrayRepDouble.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E35616FBD7CB00D5A887 /* ArrayRepEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF10915EFC2B100E63391 /* ArrayRepEmpty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E35816FBD7CB00D5A887 /* ArrayRepFetchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF10B15EFC2B100E63391 /* ArrayRepFetchRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E35A16FBD7CB00D5A887 /* ArrayRepId.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF10D15EFC2B100E63391 /* ArrayRepId.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E35C16FBD7CB00D5A887 /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF10E15EFC2B100E63391 /* Block.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E35F16FBD7CB00D5A887 /* BlockRep.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF11315EFC2B100E63391 /* BlockRep.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E36216FBD7CB00D5A887 /* BlockStackElem.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF11615EFC2B100E63391 /* BlockStackElem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E36516FBD7CB00D5A887 /* CompiledCodeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF11915EFC2B100E63391 /* CompiledCodeNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E36816FBD7CB00D5A887 /* FSArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF11C15EFC2B100E63391 /* FSArchiver.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E36A16FBD7CB00D5A887 /* FSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF11E15EFC2B100E63391 /* FSArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E36C16FBD7CB00D5A887 /* FSArrayEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF12015EFC2B100E63391 /* FSArrayEnumerator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E36E16FBD7CB00D5A887 /* FSAssociation.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF12215EFC2B100E63391 /* FSAssociation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E37016FBD7CB00D5A887 /* FSBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF12415EFC2B100E63391 /* FSBlock.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E37216FBD7CB00D5A887 /* FSBlockCompilationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF12615EFC2B100E63391 /* FSBlockCompilationResult.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E37416FBD7CB00D5A887 /* FSBoolean.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF12815EFC2B100E63391 /* FSBoolean.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E37716FBD7CB00D5A887 /* FSClassDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF12B15EFC2B100E63391 /* FSClassDefinition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E37916FBD7CB00D5A887 /* FSCNArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF12D15EFC2B100E63391 /* FSCNArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E37B16FBD7CB00D5A887 /* FSCNAssignment.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF12F15EFC2B100E63391 /* FSCNAssignment.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E37D16FBD7CB00D5A887 /* FSCNBase.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF13115EFC2B100E63391 /* FSCNBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E37F16FBD7CB00D5A887 /* FSCNBinaryMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF13315EFC2B100E63391 /* FSCNBinaryMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E38116FBD7CB00D5A887 /* FSCNBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF13515EFC2B100E63391 /* FSCNBlock.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E38316FBD7CB00D5A887 /* FSCNCascade.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF13715EFC2B100E63391 /* FSCNCascade.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E38516FBD7CB00D5A887 /* FSCNCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF13915EFC2B100E63391 /* FSCNCategory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E38716FBD7CB00D5A887 /* FSCNClassDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF13B15EFC2B100E63391 /* FSCNClassDefinition.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E38916FBD7CB00D5A887 /* FSCNDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF13D15EFC2B100E63391 /* FSCNDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E38B16FBD7CB00D5A887 /* FSCNIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF13F15EFC2B100E63391 /* FSCNIdentifier.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E38D16FBD7CB00D5A887 /* FSCNKeywordMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF14115EFC2B100E63391 /* FSCNKeywordMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E38F16FBD7CB00D5A887 /* FSCNMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF14315EFC2B100E63391 /* FSCNMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E39116FBD7CB00D5A887 /* FSCNMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF14515EFC2B100E63391 /* FSCNMethod.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E39316FBD7CB00D5A887 /* FSCNPrecomputedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF14715EFC2B100E63391 /* FSCNPrecomputedObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E39516FBD7CB00D5A887 /* FSCNReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF14915EFC2B100E63391 /* FSCNReturn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E39716FBD7CB00D5A887 /* FSCNStatementList.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF14B15EFC2B100E63391 /* FSCNStatementList.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E39916FBD7CB00D5A887 /* FSCNSuper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF14D15EFC2B100E63391 /* FSCNSuper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E39B16FBD7CB00D5A887 /* FSCNUnaryMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF14F15EFC2B100E63391 /* FSCNUnaryMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E39D16FBD7CB00D5A887 /* FSCommandHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF15115EFC2B100E63391 /* FSCommandHistory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E39F16FBD7CB00D5A887 /* FSCompilationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF15315EFC2B100E63391 /* FSCompilationResult.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3A116FBD7CB00D5A887 /* FSCompiler.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF15515EFC2B100E63391 /* FSCompiler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3A316FBD7CB00D5A887 /* FSConstantsInitialization.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF15715EFC2B100E63391 /* FSConstantsInitialization.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3A716FBD7CB00D5A887 /* FScriptFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF15B15EFC2B100E63391 /* FScriptFunctions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3A916FBD7CB00D5A887 /* FSError.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF15D15EFC2B100E63391 /* FSError.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3AB16FBD7CB00D5A887 /* FSExecEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF15F15EFC2B100E63391 /* FSExecEngine.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3AD16FBD7CB00D5A887 /* FSExecutor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF16115EFC2B100E63391 /* FSExecutor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3AF16FBD7CB00D5A887 /* FSGenericPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF16315EFC2B100E63391 /* FSGenericPointer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3B216FBD7CB00D5A887 /* FSGlobalScope.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF16615EFC2B100E63391 /* FSGlobalScope.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3B416FBD7CB00D5A887 /* FSIdentifierFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF16815EFC2B100E63391 /* FSIdentifierFormatter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3B616FBD7CB00D5A887 /* FSInterpreter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF16A15EFC2B100E63391 /* FSInterpreter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3B916FBD7CB00D5A887 /* FSInterpreterResult.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF16D15EFC2B100E63391 /* FSInterpreterResult.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3BC16FBD7CB00D5A887 /* FSKeyedArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF17015EFC2B100E63391 /* FSKeyedArchiver.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3BE16FBD7CB00D5A887 /* FSKeyedUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF17215EFC2B100E63391 /* FSKeyedUnarchiver.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3BF16FBD7CB00D5A887 /* FSMethod-iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF17315EFC2B100E63391 /* FSMethod-iOS.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3C216FBD7CB00D5A887 /* FSMiscTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF17715EFC2B100E63391 /* FSMiscTools.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3C416FBD7CB00D5A887 /* FSMsgContext.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF17915EFC2B100E63391 /* FSMsgContext.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3C616FBD7CB00D5A887 /* FSNamedNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF17B15EFC2B100E63391 /* FSNamedNumber.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3C816FBD7CB00D5A887 /* FSNewlyAllocatedObjectHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF17D15EFC2B100E63391 /* FSNewlyAllocatedObjectHolder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3CA16FBD7CB00D5A887 /* FSNSArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF17F15EFC2B100E63391 /* FSNSArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3CD16FBD7CB00D5A887 /* FSNSAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF18215EFC2B100E63391 /* FSNSAttributedString.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3CF16FBD7CB00D5A887 /* FSNSDate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF18415EFC2B100E63391 /* FSNSDate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3D116FBD7CB00D5A887 /* FSNSDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF18615EFC2B100E63391 /* FSNSDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3D316FBD7CB00D5A887 /* FSNSFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF18815EFC2B100E63391 /* FSNSFileHandle.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3D516FBD7CB00D5A887 /* FSNSManagedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF18A15EFC2B100E63391 /* FSNSManagedObjectContext.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3D716FBD7CB00D5A887 /* FSNSMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF18C15EFC2B100E63391 /* FSNSMutableArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3D916FBD7CB00D5A887 /* FSNSMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF18E15EFC2B100E63391 /* FSNSMutableDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3DB16FBD7CB00D5A887 /* FSNSMutableString.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF19015EFC2B100E63391 /* FSNSMutableString.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3DD16FBD7CB00D5A887 /* FSNSNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF19215EFC2B100E63391 /* FSNSNumber.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3DF16FBD7CB00D5A887 /* FSNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF19415EFC2B100E63391 /* FSNSObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3E216FBD7CB00D5A887 /* FSNSProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF19715EFC2B100E63391 /* FSNSProxy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3E416FBD7CB00D5A887 /* FSNSSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF19915EFC2B100E63391 /* FSNSSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3E616FBD7CB00D5A887 /* FSNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF19B15EFC2B100E63391 /* FSNSString.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3EB16FBD7CB00D5A887 /* FSNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF1A015EFC2B100E63391 /* FSNumber.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3ED16FBD7CB00D5A887 /* FSObjectFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF1A215EFC2B100E63391 /* FSObjectFormatter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3EF16FBD7CB00D5A887 /* FSObjectPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF1A415EFC2B100E63391 /* FSObjectPointer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3F216FBD7CB00D5A887 /* FSPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF1A715EFC2B100E63391 /* FSPattern.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3F416FBD7CB00D5A887 /* FSPointer.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF1A915EFC2B100E63391 /* FSPointer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3F716FBD7CB00D5A887 /* FSReplacementForCoderForClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF1AC15EFC2B100E63391 /* FSReplacementForCoderForClass.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3F916FBD7CB00D5A887 /* FSReplacementForCoderForNilInArray.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF1AE15EFC2B100E63391 /* FSReplacementForCoderForNilInArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3FB16FBD7CB00D5A887 /* FSReturnSignal.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF1B015EFC2B100E63391 /* FSReturnSignal.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3FD16FBD7CB00D5A887 /* FSSymbolTable.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF1B215EFC2B100E63391 /* FSSymbolTable.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E3FF16FBD7CB00D5A887 /* FSSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF1B415EFC2B100E63391 /* FSSystem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E40216FBD7CB00D5A887 /* FSTranscript.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF1B715EFC2B100E63391 /* FSTranscript.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E40416FBD7CB00D5A887 /* FSUnarchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF1B915EFC2B100E63391 /* FSUnarchiver.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E40616FBD7CB00D5A887 /* FSVoid.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF1BB15EFC2B100E63391 /* FSVoid.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E40916FBD7CB00D5A887 /* MessagePatternCodeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF1BE15EFC2B100E63391 /* MessagePatternCodeNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E40B16FBD7CB00D5A887 /* Number.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF1BF15EFC2B100E63391 /* Number.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E40E16FBD7CB00D5A887 /* Pointer.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF1C215EFC2B100E63391 /* Pointer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E41116FBD7CB00D5A887 /* Space.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF1C515EFC2B100E63391 /* Space.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
 		CD6BF728161FD99D00B8FBB0 /* SuperJSTP.h in Headers */ = {isa = PBXBuildFile; fileRef = CD6BF726161FD99D00B8FBB0 /* SuperJSTP.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CD6BF729161FD99D00B8FBB0 /* SuperJSTP.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6BF727161FD99D00B8FBB0 /* SuperJSTP.m */; };
 		CD6BF72A161FF01000B8FBB0 /* SuperJSTP.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6BF727161FD99D00B8FBB0 /* SuperJSTP.m */; };
@@ -1135,7 +1222,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = Super;
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Super Debugger";
 			};
 			buildConfigurationList = CDF1AA9C15A8D7760038EAB7 /* Build configuration list for PBXProject "SuperDBCore" */;
@@ -1295,6 +1382,93 @@
 				CD0D94DF15B84C21003A0D8B /* SuperNetworkMessage.m in Sources */,
 				CD0C658E15ECF981006DE7F3 /* SuperInterpreter.m in Sources */,
 				4E1C7FEB16BBD4E100C2F881 /* NSData+Base64.m in Sources */,
+				CD40E34E16FBD7CB00D5A887 /* Array.m in Sources */,
+				CD40E35216FBD7CB00D5A887 /* ArrayRepBoolean.m in Sources */,
+				CD40E35416FBD7CB00D5A887 /* ArrayRepDouble.m in Sources */,
+				CD40E35616FBD7CB00D5A887 /* ArrayRepEmpty.m in Sources */,
+				CD40E35816FBD7CB00D5A887 /* ArrayRepFetchRequest.m in Sources */,
+				CD40E35A16FBD7CB00D5A887 /* ArrayRepId.m in Sources */,
+				CD40E35C16FBD7CB00D5A887 /* Block.m in Sources */,
+				CD40E35F16FBD7CB00D5A887 /* BlockRep.m in Sources */,
+				CD40E36216FBD7CB00D5A887 /* BlockStackElem.m in Sources */,
+				CD40E36516FBD7CB00D5A887 /* CompiledCodeNode.m in Sources */,
+				CD40E36816FBD7CB00D5A887 /* FSArchiver.m in Sources */,
+				CD40E36A16FBD7CB00D5A887 /* FSArray.m in Sources */,
+				CD40E36C16FBD7CB00D5A887 /* FSArrayEnumerator.m in Sources */,
+				CD40E36E16FBD7CB00D5A887 /* FSAssociation.m in Sources */,
+				CD40E37016FBD7CB00D5A887 /* FSBlock.m in Sources */,
+				CD40E37216FBD7CB00D5A887 /* FSBlockCompilationResult.m in Sources */,
+				CD40E37416FBD7CB00D5A887 /* FSBoolean.m in Sources */,
+				CD40E37716FBD7CB00D5A887 /* FSClassDefinition.m in Sources */,
+				CD40E37916FBD7CB00D5A887 /* FSCNArray.m in Sources */,
+				CD40E37B16FBD7CB00D5A887 /* FSCNAssignment.m in Sources */,
+				CD40E37D16FBD7CB00D5A887 /* FSCNBase.m in Sources */,
+				CD40E37F16FBD7CB00D5A887 /* FSCNBinaryMessage.m in Sources */,
+				CD40E38116FBD7CB00D5A887 /* FSCNBlock.m in Sources */,
+				CD40E38316FBD7CB00D5A887 /* FSCNCascade.m in Sources */,
+				CD40E38516FBD7CB00D5A887 /* FSCNCategory.m in Sources */,
+				CD40E38716FBD7CB00D5A887 /* FSCNClassDefinition.m in Sources */,
+				CD40E38916FBD7CB00D5A887 /* FSCNDictionary.m in Sources */,
+				CD40E38B16FBD7CB00D5A887 /* FSCNIdentifier.m in Sources */,
+				CD40E38D16FBD7CB00D5A887 /* FSCNKeywordMessage.m in Sources */,
+				CD40E38F16FBD7CB00D5A887 /* FSCNMessage.m in Sources */,
+				CD40E39116FBD7CB00D5A887 /* FSCNMethod.m in Sources */,
+				CD40E39316FBD7CB00D5A887 /* FSCNPrecomputedObject.m in Sources */,
+				CD40E39516FBD7CB00D5A887 /* FSCNReturn.m in Sources */,
+				CD40E39716FBD7CB00D5A887 /* FSCNStatementList.m in Sources */,
+				CD40E39916FBD7CB00D5A887 /* FSCNSuper.m in Sources */,
+				CD40E39B16FBD7CB00D5A887 /* FSCNUnaryMessage.m in Sources */,
+				CD40E39D16FBD7CB00D5A887 /* FSCommandHistory.m in Sources */,
+				CD40E39F16FBD7CB00D5A887 /* FSCompilationResult.m in Sources */,
+				CD40E3A116FBD7CB00D5A887 /* FSCompiler.m in Sources */,
+				CD40E3A316FBD7CB00D5A887 /* FSConstantsInitialization.m in Sources */,
+				CD40E3A716FBD7CB00D5A887 /* FScriptFunctions.m in Sources */,
+				CD40E3A916FBD7CB00D5A887 /* FSError.m in Sources */,
+				CD40E3AB16FBD7CB00D5A887 /* FSExecEngine.m in Sources */,
+				CD40E3AD16FBD7CB00D5A887 /* FSExecutor.m in Sources */,
+				CD40E3AF16FBD7CB00D5A887 /* FSGenericPointer.m in Sources */,
+				CD40E3B216FBD7CB00D5A887 /* FSGlobalScope.m in Sources */,
+				CD40E3B416FBD7CB00D5A887 /* FSIdentifierFormatter.m in Sources */,
+				CD40E3B616FBD7CB00D5A887 /* FSInterpreter.m in Sources */,
+				CD40E3B916FBD7CB00D5A887 /* FSInterpreterResult.m in Sources */,
+				CD40E3BC16FBD7CB00D5A887 /* FSKeyedArchiver.m in Sources */,
+				CD40E3BE16FBD7CB00D5A887 /* FSKeyedUnarchiver.m in Sources */,
+				CD40E3BF16FBD7CB00D5A887 /* FSMethod-iOS.m in Sources */,
+				CD40E3C216FBD7CB00D5A887 /* FSMiscTools.m in Sources */,
+				CD40E3C416FBD7CB00D5A887 /* FSMsgContext.m in Sources */,
+				CD40E3C616FBD7CB00D5A887 /* FSNamedNumber.m in Sources */,
+				CD40E3C816FBD7CB00D5A887 /* FSNewlyAllocatedObjectHolder.m in Sources */,
+				CD40E3CA16FBD7CB00D5A887 /* FSNSArray.m in Sources */,
+				CD40E3CD16FBD7CB00D5A887 /* FSNSAttributedString.m in Sources */,
+				CD40E3CF16FBD7CB00D5A887 /* FSNSDate.m in Sources */,
+				CD40E3D116FBD7CB00D5A887 /* FSNSDictionary.m in Sources */,
+				CD40E3D316FBD7CB00D5A887 /* FSNSFileHandle.m in Sources */,
+				CD40E3D516FBD7CB00D5A887 /* FSNSManagedObjectContext.m in Sources */,
+				CD40E3D716FBD7CB00D5A887 /* FSNSMutableArray.m in Sources */,
+				CD40E3D916FBD7CB00D5A887 /* FSNSMutableDictionary.m in Sources */,
+				CD40E3DB16FBD7CB00D5A887 /* FSNSMutableString.m in Sources */,
+				CD40E3DD16FBD7CB00D5A887 /* FSNSNumber.m in Sources */,
+				CD40E3DF16FBD7CB00D5A887 /* FSNSObject.m in Sources */,
+				CD40E3E216FBD7CB00D5A887 /* FSNSProxy.m in Sources */,
+				CD40E3E416FBD7CB00D5A887 /* FSNSSet.m in Sources */,
+				CD40E3E616FBD7CB00D5A887 /* FSNSString.m in Sources */,
+				CD40E3EB16FBD7CB00D5A887 /* FSNumber.m in Sources */,
+				CD40E3ED16FBD7CB00D5A887 /* FSObjectFormatter.m in Sources */,
+				CD40E3EF16FBD7CB00D5A887 /* FSObjectPointer.m in Sources */,
+				CD40E3F216FBD7CB00D5A887 /* FSPattern.m in Sources */,
+				CD40E3F416FBD7CB00D5A887 /* FSPointer.m in Sources */,
+				CD40E3F716FBD7CB00D5A887 /* FSReplacementForCoderForClass.m in Sources */,
+				CD40E3F916FBD7CB00D5A887 /* FSReplacementForCoderForNilInArray.m in Sources */,
+				CD40E3FB16FBD7CB00D5A887 /* FSReturnSignal.m in Sources */,
+				CD40E3FD16FBD7CB00D5A887 /* FSSymbolTable.m in Sources */,
+				CD40E3FF16FBD7CB00D5A887 /* FSSystem.m in Sources */,
+				CD40E40216FBD7CB00D5A887 /* FSTranscript.m in Sources */,
+				CD40E40416FBD7CB00D5A887 /* FSUnarchiver.m in Sources */,
+				CD40E40616FBD7CB00D5A887 /* FSVoid.m in Sources */,
+				CD40E40916FBD7CB00D5A887 /* MessagePatternCodeNode.m in Sources */,
+				CD40E40B16FBD7CB00D5A887 /* Number.m in Sources */,
+				CD40E40E16FBD7CB00D5A887 /* Pointer.m in Sources */,
+				CD40E41116FBD7CB00D5A887 /* Space.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1354,7 +1528,6 @@
 				GCC_PREFIX_HEADER = "SuperDBCore/SuperDBCore-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PREBINDING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -1368,7 +1541,6 @@
 				GCC_PREFIX_HEADER = "SuperDBCore/SuperDBCore-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
-				PREBINDING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -1378,6 +1550,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode45-DP1.app/Contents/Developer/Library/Frameworks\"",
@@ -1397,6 +1570,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
