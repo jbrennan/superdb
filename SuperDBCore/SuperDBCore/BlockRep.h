@@ -8,7 +8,7 @@
 @class FSSymbolTable;
 @class NSMutableString;
 @class FSArray;
-@class BlockInspector;
+//@class BlockInspector;
 @class NSExcepion;
 @class FSMsgContext;
 @class FSBlock;

@@ -4,13 +4,13 @@
 #import "FSNSObject.h"
 #import "BlockSignature.h"
 
-@class BlockInspector, FSBoolean, FSMsgContext, BlockRep, FSSymbolTable, FSCNBase, FSInterpreter, FSInterpreterResult;
+@class /*BlockInspector,*/ FSBoolean, FSMsgContext, BlockRep, FSSymbolTable, FSCNBase, FSInterpreter, FSInterpreterResult;
 
 @interface Block:NSObject <NSCopying , NSCoding>
 {
   NSUInteger retainCount;    
   BlockRep *blockRep;
-  BlockInspector *inspector;
+//  BlockInspector *inspector;
 }
 
 + allocWithZone:(NSZone *)zone;

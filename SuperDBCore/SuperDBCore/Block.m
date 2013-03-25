@@ -402,10 +402,10 @@ void __attribute__ ((constructor)) initializeBlock(void)
   assert(0);
 }
 
-- (BlockInspector *)inspector 
-{ 
-  assert(0);
-}
+//- (BlockInspector *)inspector 
+//{ 
+//  assert(0);
+//}
 
 - (SEL)messageToArgumentSelector
 {

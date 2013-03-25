@@ -6,13 +6,13 @@
 
 extern NSString *FS_Block_keyOfSetValueForKeyMessage(FSBlock *block);
 
-@class BlockInspector, FSMsgContext, BlockRep, FSSymbolTable, FSCNBase, FSInterpreter, FSInterpreterResult;
+@class /*BlockInspector,*/ FSMsgContext, BlockRep, FSSymbolTable, FSCNBase, FSInterpreter, FSInterpreterResult;
 
 @interface FSBlock:NSObject <NSCopying , NSCoding>
 {
   NSUInteger retainCount;    
   BlockRep *blockRep;
-  BlockInspector *inspector;
+//  BlockInspector *inspector;
 }
 
 + allocWithZone:(NSZone *)zone;

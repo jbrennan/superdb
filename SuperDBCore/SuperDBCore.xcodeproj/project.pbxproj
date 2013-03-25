@@ -142,6 +142,11 @@
 		CD40E40B16FBD7CB00D5A887 /* Number.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF1BF15EFC2B100E63391 /* Number.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
 		CD40E40E16FBD7CB00D5A887 /* Pointer.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF1C215EFC2B100E63391 /* Pointer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
 		CD40E41116FBD7CB00D5A887 /* Space.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6FF1C515EFC2B100E63391 /* Space.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -Xanalyzer -analyzer-disable-checker"; }; };
+		CD40E41416FC105200D5A887 /* SuperInterpreterObjectBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = CD40C80A15F0ECCB002E3A58 /* SuperInterpreterObjectBrowser.m */; };
+		CD40E41516FC106600D5A887 /* Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDC9F8816224697006883CE /* Geometry.m */; };
+		CD40E41616FC109E00D5A887 /* prep_cif.c in Sources */ = {isa = PBXBuildFile; fileRef = CD0D94F815B8727A003A0D8B /* prep_cif.c */; };
+		CD40E41716FC109E00D5A887 /* raw_api.c in Sources */ = {isa = PBXBuildFile; fileRef = CD0D94F915B8727A003A0D8B /* raw_api.c */; };
+		CD40E41816FC109E00D5A887 /* types.c in Sources */ = {isa = PBXBuildFile; fileRef = CD0D94FA15B8727A003A0D8B /* types.c */; };
 		CD6BF728161FD99D00B8FBB0 /* SuperJSTP.h in Headers */ = {isa = PBXBuildFile; fileRef = CD6BF726161FD99D00B8FBB0 /* SuperJSTP.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		CD6BF729161FD99D00B8FBB0 /* SuperJSTP.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6BF727161FD99D00B8FBB0 /* SuperJSTP.m */; };
 		CD6BF72A161FF01000B8FBB0 /* SuperJSTP.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6BF727161FD99D00B8FBB0 /* SuperJSTP.m */; };
@@ -1381,6 +1386,8 @@
 				CD0D94D915B84683003A0D8B /* SuperInterpreterClient.m in Sources */,
 				CD0D94DF15B84C21003A0D8B /* SuperNetworkMessage.m in Sources */,
 				CD0C658E15ECF981006DE7F3 /* SuperInterpreter.m in Sources */,
+				CD40E41416FC105200D5A887 /* SuperInterpreterObjectBrowser.m in Sources */,
+				CD40E41516FC106600D5A887 /* Geometry.m in Sources */,
 				4E1C7FEB16BBD4E100C2F881 /* NSData+Base64.m in Sources */,
 				CD40E34E16FBD7CB00D5A887 /* Array.m in Sources */,
 				CD40E35216FBD7CB00D5A887 /* ArrayRepBoolean.m in Sources */,
@@ -1469,6 +1476,9 @@
 				CD40E40B16FBD7CB00D5A887 /* Number.m in Sources */,
 				CD40E40E16FBD7CB00D5A887 /* Pointer.m in Sources */,
 				CD40E41116FBD7CB00D5A887 /* Space.m in Sources */,
+				CD40E41616FC109E00D5A887 /* prep_cif.c in Sources */,
+				CD40E41716FC109E00D5A887 /* raw_api.c in Sources */,
+				CD40E41816FC109E00D5A887 /* types.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

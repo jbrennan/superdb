@@ -824,11 +824,11 @@ NSString *FS_Block_keyOfSetValueForKeyMessage(FSBlock *s)
   return nil;
 }
 #else
-- (BlockInspector *)inspector 
-{ 
-  if (!inspector) inspector = [[BlockInspector alloc] initWithBlock:self];
-  return inspector;
-}
+//- (BlockInspector *)inspector 
+//{ 
+//  if (!inspector) inspector = [[BlockInspector alloc] initWithBlock:self];
+//  return inspector;
+//}
 #endif
 
 - (SEL)messageToArgumentSelector
