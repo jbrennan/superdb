@@ -45,6 +45,8 @@
 	self.deviceWindow = [[SuperDeviceSelectionWindowController alloc] initWithWindowNibName:@"SuperDeviceSelectionWindowController"];
 	[self.deviceWindow showWindow:nil];
 	
+	[[NSApplication sharedApplication] setPresentationOptions:NSApplicationPresentationAutoHideDock | NSApplicationPresentationAutoHideMenuBar];
+	
 }
 
 - (IBAction)openNewShell:(NSMenuItem *)sender {

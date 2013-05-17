@@ -26,4 +26,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (void)setFrameX:(CGFloat)x {
+	CGRect frame = self.redView.frame;
+	frame.origin.x = x;
+	self.redView.frame = frame;
+}
+
+
+- (void)setFrameY:(CGFloat)y {
+	CGRect frame = self.redView.frame;
+	frame.origin.y = y;
+	self.redView.frame = frame;
+}
+
 @end
